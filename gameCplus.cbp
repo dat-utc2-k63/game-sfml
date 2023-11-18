@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gameCplus" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gameCplus" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="$(SolutionDir)gameCplus/include" />
+				</Compiler>
+				<Linker>
+					<Add library="SFML/lib/libFLAC.a" />
+					<Add library="SFML/lib/libfreetype.a" />
+					<Add library="SFML/lib/libogg.a" />
+					<Add library="SFML/lib/libopenal32.a" />
+					<Add library="SFML/lib/libsfml-audio.a" />
+					<Add library="SFML/lib/libsfml-audio-d.a" />
+					<Add library="SFML/lib/libsfml-audio-s.a" />
+					<Add library="SFML/lib/libsfml-audio-s-d.a" />
+					<Add library="SFML/lib/libsfml-graphics.a" />
+					<Add library="SFML/lib/libsfml-graphics-d.a" />
+					<Add library="SFML/lib/libsfml-graphics-s.a" />
+					<Add library="SFML/lib/libsfml-graphics-s-d.a" />
+					<Add library="SFML/lib/libsfml-main.a" />
+					<Add library="SFML/lib/libsfml-main-d.a" />
+					<Add library="SFML/lib/libsfml-network.a" />
+					<Add library="SFML/lib/libsfml-network-d.a" />
+					<Add library="SFML/lib/libsfml-network-s.a" />
+					<Add library="SFML/lib/libsfml-network-s-d.a" />
+					<Add library="SFML/lib/libsfml-system.a" />
+					<Add library="SFML/lib/libsfml-system-d.a" />
+					<Add library="SFML/lib/libsfml-system-s.a" />
+					<Add library="SFML/lib/libsfml-system-s-d.a" />
+					<Add library="SFML/lib/libsfml-window.a" />
+					<Add library="SFML/lib/libsfml-window-d.a" />
+					<Add library="SFML/lib/libsfml-window-s.a" />
+					<Add library="SFML/lib/libsfml-window-s-d.a" />
+					<Add library="SFML/lib/libvorbis.a" />
+					<Add library="SFML/lib/libvorbisenc.a" />
+					<Add library="SFML/lib/libvorbisfile.a" />
+					<Add directory="$(SolutionDir)gameCplus/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gameCplus" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files/CodeBlocks/SFML/include" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libFLAC.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libfreetype.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libogg.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libopenal32.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-audio.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-audio-d.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-audio-s.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-audio-s-d.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-graphics.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-graphics-d.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-graphics-s.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-graphics-s-d.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-main.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-main-d.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-network.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-network-d.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-network-s.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-network-s-d.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-system.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-system-d.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-system-s.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-system-s-d.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-window.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-window-d.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-window-s.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libsfml-window-s-d.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libvorbis.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libvorbisenc.a" />
+			<Add library="C:/Program Files/CodeBlocks/SFML/lib/libvorbisfile.a" />
+			<Add directory="C:/Program Files/CodeBlocks/SFML/lib" />
+		</Linker>
+		<Unit filename="CharacterMovement.cpp" />
+		<Unit filename="CharacterMovement.h" />
+		<Unit filename="Endgame.cpp" />
+		<Unit filename="Endgame.h" />
+		<Unit filename="FallingObjects.cpp" />
+		<Unit filename="FallingObjects.h" />
+		<Unit filename="HighScoreEntry.h" />
+		<Unit filename="HighScoreScreen.cpp" />
+		<Unit filename="HighScoreScreen.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

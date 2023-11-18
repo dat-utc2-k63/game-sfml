@@ -1,0 +1,10 @@
+Player 2200
+Player 2000
+Player 1600
+Player 1400
+Player 1200
+Player 900
+Player 800
+Player 800
+Player 600
+Player 500
